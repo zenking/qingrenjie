@@ -1,0 +1,25 @@
+{
+  "name": "qingrenjie",
+  "version": "1.0.0",
+  "description": "0214 qingtenjie",
+  "main": "index.js",
+  "bin": {
+      "qingrenjie":"./bin/qingrenjie"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenking/qingrenjie.git"
+  },
+  "keywords": [
+    "qingrenjie"
+  ],
+  "author": "zhangling@whatsmax.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zenking/qingrenjie/issues"
+  },
+  "homepage": "https://github.com/zenking/qingrenjie#readme"
+}
