@@ -1,3 +1,3 @@
 #!/usr/local/bin/node
 require('../lib');
-console.log('情人节快乐')
+console.log('宋佩兰情人节快乐')
