@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 require('../lib/spl.js');
-console.log('宋佩兰情人节快乐')
+console.log(spl('宋佩兰情人节快乐'));

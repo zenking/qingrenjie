@@ -1,0 +1,114 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'link' ]
+2 info using npm@3.10.9
+3 info using node@v7.2.0
+4 verbose linkPkg /Users/zenking/demo/dewangda/qingrenjie
+5 silly gentlyRm /usr/local/lib/node_modules/qingrenjie is being purged
+6 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/qingrenjie
+7 silly vacuum-fs purging /usr/local/lib/node_modules/qingrenjie
+8 silly vacuum-fs quitting because other entries in /usr/local/lib/node_modules
+9 verbose link build target /usr/local/lib/node_modules/qingrenjie
+10 silly loadCurrentTree Starting
+11 silly install loadCurrentTree
+12 silly install readLocalPackageData
+13 silly install normalizeTree
+14 silly loadCurrentTree Finishing
+15 silly loadIdealTree Starting
+16 silly install loadIdealTree
+17 silly cloneCurrentTree Starting
+18 silly install cloneCurrentTreeToIdealTree
+19 silly cloneCurrentTree Finishing
+20 silly loadShrinkwrap Starting
+21 silly install loadShrinkwrap
+22 silly loadShrinkwrap Finishing
+23 silly loadAllDepsIntoIdealTree Starting
+24 silly install loadAllDepsIntoIdealTree
+25 silly loadAllDepsIntoIdealTree Finishing
+26 silly loadIdealTree Finishing
+27 silly currentTree qingrenjie@1.0.3
+28 silly idealTree qingrenjie@1.0.3
+29 silly generateActionsToTake Starting
+30 silly install generateActionsToTake
+31 silly generateActionsToTake Finishing
+32 silly diffTrees action count 0
+33 silly decomposeActions action count 0
+34 silly runTopLevelLifecycles Starting
+35 silly install runPreinstallTopLevelLifecycles
+36 silly preinstall qingrenjie@1.0.3 /Users/zenking/demo/dewangda/qingrenjie/qingrenjie-718976b3
+37 info lifecycle qingrenjie@1.0.3~preinstall: qingrenjie@1.0.3
+38 silly lifecycle qingrenjie@1.0.3~preinstall: no script for preinstall, continuing
+39 silly executeActions Starting
+40 silly install executeActions
+41 silly doSerial global-install 0
+42 silly doParallel fetch 0
+43 verbose correctMkdir /Users/zenking/.npm/_locks correctMkdir not in flight; initializing
+44 verbose lock using /Users/zenking/.npm/_locks/staging-7a163ec25a858b99.lock for /Users/zenking/demo/dewangda/qingrenjie/node_modules/.staging
+45 silly doParallel extract 0
+46 silly doParallel preinstall 0
+47 silly doReverseSerial remove 0
+48 silly doSerial move 0
+49 silly doSerial finalize 0
+50 silly doSerial build 0
+51 silly doSerial global-link 0
+52 silly doParallel update-linked 0
+53 silly doSerial install 0
+54 silly doSerial postinstall 0
+55 verbose unlock done using /Users/zenking/.npm/_locks/staging-7a163ec25a858b99.lock for /Users/zenking/demo/dewangda/qingrenjie/node_modules/.staging
+56 silly executeActions Finishing
+57 silly rollbackFailedOptional Starting
+58 silly rollbackFailedOptional Finishing
+59 silly install runPostinstallTopLevelLifecycles
+60 silly build qingrenjie@1.0.3
+61 info linkStuff qingrenjie@1.0.3
+62 silly linkStuff qingrenjie@1.0.3 has /Users/zenking/demo/dewangda as its parent node_modules
+63 verbose linkBins qingrenjie@1.0.3
+64 verbose linkMans qingrenjie@1.0.3
+65 silly install qingrenjie@1.0.3 /Users/zenking/demo/dewangda/qingrenjie/qingrenjie-718976b3
+66 info lifecycle qingrenjie@1.0.3~install: qingrenjie@1.0.3
+67 silly lifecycle qingrenjie@1.0.3~install: no script for install, continuing
+68 silly postinstall qingrenjie@1.0.3 /Users/zenking/demo/dewangda/qingrenjie/qingrenjie-718976b3
+69 info lifecycle qingrenjie@1.0.3~postinstall: qingrenjie@1.0.3
+70 silly lifecycle qingrenjie@1.0.3~postinstall: no script for postinstall, continuing
+71 silly prepublish qingrenjie@1.0.3 /Users/zenking/demo/dewangda/qingrenjie/qingrenjie-718976b3
+72 info lifecycle qingrenjie@1.0.3~prepublish: qingrenjie@1.0.3
+73 silly lifecycle qingrenjie@1.0.3~prepublish: no script for prepublish, continuing
+74 silly runTopLevelLifecycles Finishing
+75 silly install printInstalled
+76 info build /usr/local/lib/node_modules/qingrenjie
+77 info linkStuff qingrenjie@1.0.3
+78 silly linkStuff qingrenjie@1.0.3 has /usr/local/lib/node_modules as its parent node_modules
+79 silly linkStuff qingrenjie@1.0.3 is part of a global install
+80 silly linkStuff qingrenjie@1.0.3 is installed into a global node_modules
+81 silly linkStuff qingrenjie@1.0.3 is installed into the top-level global node_modules
+82 verbose linkBins qingrenjie@1.0.3
+83 verbose link bins [ { qingrenjie: './bin/qingrenjie.js' }, '/usr/local/bin', true ]
+84 verbose linkMans qingrenjie@1.0.3
+85 silly gentlyRm /usr/local/bin/qingrenjie is being gently removed
+86 silly gentlyRm parent.path = /Users/zenking/demo/dewangda/qingrenjie
+87 silly gentlyRm parent.managed = /Users/zenking/demo/dewangda/qingrenjie is in /Users/zenking/demo/dewangda/qingrenjie
+88 silly gentlyRm target.path =  /usr/local/bin/qingrenjie
+89 silly gentlyRm target.symlink = ../lib/node_modules/qingrenjie/bin/qingrenjie
+90 silly gentlyRm target.managed = false
+91 silly gentlyRm target.inParent =  false
+92 verbose stack Error: Refusing to delete /usr/local/bin/qingrenjie: ../lib/node_modules/qingrenjie/bin/qingrenjie symlink target is not controlled by npm /Users/zenking/demo/dewangda/qingrenjie
+92 verbose stack     at clobberFail (/usr/local/lib/node_modules/npm/lib/utils/gently-rm.js:162:12)
+92 verbose stack     at isSafeToRm (/usr/local/lib/node_modules/npm/lib/utils/gently-rm.js:152:15)
+92 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/gently-rm.js:93:5
+92 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:7:26)
+92 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+92 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/gently-rm.js:179:14
+92 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:11:16
+92 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:11:16
+92 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:11:16
+92 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:11:16
+93 verbose cwd /Users/zenking/demo/dewangda/qingrenjie
+94 error Darwin 16.1.0
+95 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "link"
+96 error node v7.2.0
+97 error npm  v3.10.9
+98 error path /usr/local/bin/qingrenjie
+99 error code EEXIST
+100 error Refusing to delete /usr/local/bin/qingrenjie: ../lib/node_modules/qingrenjie/bin/qingrenjie symlink target is not controlled by npm /Users/zenking/demo/dewangda/qingrenjie
+101 error File exists: /usr/local/bin/qingrenjie
+102 error Move it away, and try again.
+103 verbose exit [ 1, true ]

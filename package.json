@@ -4,7 +4,7 @@
   "description": "0214 qingtenjie",
   "main": "spl.js",
   "bin": {
-      "qingrenjie":"./bin/qingrenjie"
+      "qingrenjie":"./bin/qingrenjie.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
