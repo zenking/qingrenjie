@@ -2,7 +2,7 @@
   "name": "qingrenjie",
   "version": "1.0.3",
   "description": "0214 qingtenjie",
-  "main": "index.js",
+  "main": "spl.js",
   "bin": {
       "qingrenjie":"./bin/qingrenjie"
   },
